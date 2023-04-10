@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formularios</title>
+<script src="Scripts/EjercFormularios/formularios.js"></script>
+</head>
+<body>
+    <h1>FORMULARIO BÁSICO</h1>
+    <form name="formularioEntrada">
+        Escribe una Operacion:
+        <br>
+        <br>
+        <input type="text" size="40" name="tuOperacion" placeholder="1+2"/>
+        <br>
+        <br>
+        <input type="button" name="evaluarTuOperacion" value="Evalua tu operacion" onclick="evaluar(this.form)"/>
+        <br>
+        <br>
+        <input type="text" size="40" name="resultadoTuOperacion" value=""/>
+		<br>
+		<br>
+		<input type="reset"/>
+    </form>
+    
+    <h1>FORMULARIO Peso Corporal</h1>
+    <form name="formularioEntrada">
+        Escribe una Operacion:
+        <br>
+        <br>
+        Edad:
+        <input type="number" size="40" name="tuEdad" placeholder="18"/>
+        <br>
+        <br>
+        Altura:
+        <input type="number" size="40" name="tuAltura" placeholder="180"/>
+        <br>
+        <br>
+        <select name="tuSexo">
+			<option value="0">Hombre</option>
+      		<option value="1">Mujer</option>
+      	</select>
+      	<br>
+      	<br>
+        <input type="button" name="evaluarTuOperacion" value="Evalua tu operacion" onclick="evaluar(this.form)"/>
+        <br>
+        <br>
+        <input type="text" size="40" name="resultadoTuOperacion" value=""/>
+		<br>
+		<br>
+		<input type="reset"/>
+    </form>
+</body>
+</html>
